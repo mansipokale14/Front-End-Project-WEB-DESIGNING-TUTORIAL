@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/reactjs.css">
+</head>
+<body>
+    <div class="header">
+        <b>jQuery</b>
+           </div>
+           
+           <img  src="./Image/reactjs.png" id="img1">
+           
+           
+            <h2>Introduction Of  ReactJS</h2>
+            <p>React.js, often referred to simply as React, is an open-source JavaScript library used for building user interfaces, particularly single-page applications where data changes frequently. Developed and maintained by Facebook, React was first released in 2013 and has since become one of the most popular libraries for front-end development. React allows developers to create reusable UI components, which can manage their own state, and update efficiently when data changes, making it powerful for developing dynamic and responsive web applications..</p>
+        <hr>
+            
+                <h2> Core Concepts of ReactJS</h2>
+                <ol >
+                    <li> Component-Based Architecture:
+               
+                        <ul type="circle">
+                          <li>React is built around the concept of components, which are the building blocks of a React application. Components are self-contained modules that represent a part of the user interface. They can be as simple as a button or as complex as an entire page..</li>
+                          <li>Components can be either functional components (which are simple JavaScript functions) or class components (which are ES6 classes). Functional components are often preferred for their simplicity and use with hooks.</li>
+                          
+                            </ul>
+                      
+                <li>JSX (JavaScript XML):
+          <ul type="circle">
+                        <li>JSX is a syntax extension for JavaScript that looks similar to HTML. It allows developers to write HTML-like code directly within JavaScript, which is then transformed into React elements. JSX makes it easier to visualize the structure of the UI within the code.</li>
+                        
+                    </ul>
+                    <li>Virtual DOM:</li>
+                    <ul type="circle">
+                        <li>One of React's key innovations is the Virtual DOM, an in-memory representation of the actual DOM. When the state of a component changes, React updates the Virtual DOM first. It then efficiently calculates the minimal set of changes needed to update the actual DOM, resulting in faster and more efficient rendering..</li>
+                        <li>This approach minimizes direct manipulation of the DOM, which can be slow and performance-intensive.</li>
+                        </ul>
+                    <li>State and Props:</li>
+                    <ul type="circle">
+                        <li>State: State represents the dynamic data of a component. It is an object that determines how that component renders and behaves. When the state changes, the component re-renders to reflect the new state..</li>
+                        <li>Props: Props (short for properties) are used to pass data from parent components to child components. Props are read-only, meaning they cannot be modified by the receiving component.</li>
+                    </ul>
+                     </li>
+                <li>Lifecycle Methods:</li>
+                <ul type="circle">
+                    <li>Common lifecycle methods include:
+                        <ul type="circle">
+                            <li>componentDidMount(): Called after the component is rendered for the first time.</li>
+                            <li>componentDidUpdate(): Called after the component updates due to state or props changes.</li>
+                            <li>componentDidUpdate(): Called after the component updates due to state or props changes.</li>
+                        </ul>
+                    </li>
+                    <li>componentDidUpdate(): Called after the component updates due to state or props changes.</li>
+                </ul>
+                
+            </li>
+            <li>Hooks:<li>
+                <ul type="circle">
+                    <li>Hooks are a relatively recent addition to React (introduced in React 16.8) that allow functional components to use state and other React features. Hooks provide a more direct API to the React concepts previously only available in class components.</li>
+                    <li>Common hooks include:
+                        <ul type="circle">
+                            <li>useState(): Allows the use of state within functional components..</li>
+                            <li>useEffect(): Handles side effects like fetching data, subscriptions, or manually changing the DOM.
+                            </li>
+                            <li>useContext(): Provides an easy way to pass data through the component tree without prop drilling.</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+            </li>
+            <li>React Router:</li>
+                <ul type="circle">
+                    <li>React Router is a standard library for routing in React applications. It allows developers to define multiple routes in the application, which correspond to different components. React Router dynamically renders these components based on the current URL, enabling the creation of single-page applications with multiple views.</li>
+                    
+                </ul>
+            </li>
+            <li>Context API:</li>
+            <ul type="circle">
+                <li>The Context API allows for sharing data across multiple components without passing props down manually at every level. This is particularly useful for global data like themes, user information, or language settings.</li>
+                
+            </ul>
+            <li>Higher-Order Components (HOCs):</li>
+            <ul type="circle">
+                <li>HOCs are functions that take a component and return a new component, typically adding additional functionality or modifying behavior. HOCs are a pattern for reusing component logic, similar to how decorators work in other programming languages.</li>
+                
+            </ul>
+        </li>
+          <li>Higher-Order Components (HOCs):</li>
+        <ul type="circle">
+            <li>HOCs are functions that take a component and return a new component, typically adding additional functionality or modifying behavior. HOCs are a pattern for reusing component logic, similar to how decorators work in other programming languages.</li>
+            
+        </ul></li>
+        <li>Redux and State Management:</li>
+        <ul type="circle">
+            <li>While React’s state is sufficient for managing local component state, larger applications often require more advanced state management solutions. Redux is a popular library for managing global state in React applications, providing a predictable state container..</li>
+            
+        </ul></li>
+        </li>
+            <hr>
+            
+                        
+                       
+                  <h2>Advantages of React.js:</h2>
+                  <ol >
+                    <li>Component Reusability: React’s component-based architecture promotes reusability, allowing developers to build complex UIs from small, reusable pieces...</li>
+                    <li>Performance: The use of the Virtual DOM minimizes direct manipulation of the actual DOM, leading to faster updates and improved performance..</li>
+                    <li>Strong Ecosystem: React has a vast ecosystem with numerous libraries, tools, and resources available, from routing with React Router to state management with Redux..</li>
+                    <li>SEO-Friendly: With server-side rendering (SSR) and static site generation (SSG), React can be optimized for SEO, which is crucial for web applications that need to rank well in search engines..</li>
+                    <li>Large Community and Support: React has a large, active community, ensuring extensive support, regular updates, and a wealth of learning resources..</li>
+                    <li>Integration with Other Frameworks: React can be easily integrated with other libraries or frameworks, allowing it to be used for a wide range of applications, from simple websites to complex enterprise applications..</li>
+                   
+                  </ol><hr>
+                  <h2>Disadvantages of React.js:</h2>
+                  <ol>
+                    <li>Steep Learning Curve: For beginners, React’s concepts like JSX, state management, and the Virtual DOM can be challenging to learn. Additionally, the rapid evolution of React and its ecosystem requires constant learning.</li>
+                    <li>Complexity with Large Applications: As applications grow, managing state and the component hierarchy can become complex, often requiring the use of additional libraries like Redux, which can add to the complexity.</li>
+                    <li>JSX as a Barrier: While JSX simplifies the development process, it can be off-putting to developers unfamiliar with mixing HTML-like syntax within JavaScript..</li>
+                    <li>Overhead of Boilerplate Code: Setting up a React project can involve a significant amount of boilerplate code, especially when using advanced tools and libraries, which can be daunting for beginners.</li>
+                    <li>Fast-Paced Development: The React ecosystem evolves rapidly, which means developers need to keep up with frequent updates and changes, sometimes leading to breaking changes that can impact existing projects.</li>
+                  </ol><hr>
+                  <h2>Conclusion</h2>
+                  <p>React.js has transformed the way
+        
+        
+        
+        
+        
+        
+        
+                  </p>
+                 
+              
+                                                <!--Footer-->
+                       <div class="footer">
+            
+                        <div id="icons">
+                        <a href="https://www.facebook.com/"> <img class="social" src="./Image/FB.png"></a>
+                        <a href="https://www.instagram.com/"> <img class="social" src="./Image/insta.png"></a>
+                        <a href="https://in.linkedin.com/"> <img class="social" src="./Image/linkdin.png"></a>
+                        <a href="https://x.com/i/flow/login"> <img class="social" src="./Image/Twitter.png"></a>
+                        <a href="https://web.whatsapp.com/"> <img class="social" src="./Image/whatsapp.png"></a>
+            
+                             </div>
+                             <div class="footer-nav">
+                             <a href="./index.html">Home</a>
+                             <a href="./https://news.google.com/home?hl=en-IN&gl=IN&ceid=IN:en">News</a>
+                             <a href="./about.html">About Us</a>
+                             <a href="tel:91+9869007531">contact Us</a>
+                             <a href="https://www.develearn.in/contact">Our Team</a></div>
+                             <div class="footer-Copy">copyright @2024; designed by MANSI</div>
+                       </div>                   
+                           </div>
+</body>
+</html>
