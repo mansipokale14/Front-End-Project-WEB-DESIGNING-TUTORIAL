@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/cssdata.css">
+</head>
+
+<body>
+    <div class="header">
+        CSS
+    </div>
+
+    <img src="./Image/sta-je-css.png" id="img1">
+
+    <h2>Introduction Of CSS</h2>
+    <p>
+        CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document
+        written in HTML or XML. CSS defines how HTML elements should be displayed on the screen, in print, or on other
+        media. It allows you to control the layout, colors, fonts, and overall look of your website, separating content
+        from design.</p>
+    <ol type="I">
+        <li> CSS Syntax</li>
+        <img src="./Image/css_systaxpng.png" id="img2">
+        <ul type="circle">
+            <li>Syntax of CSS consists of three parts namely selector, property and
+                value</li>
+            <li>Selector is the HTML element for which you want to specify the style
+                or formatting instruction</li>
+            <li>Property of selected element is a CSS property that specifies the type
+                of style to be applied to the selector</li>
+            <li>Value refers to the value of the CSS property and a CSS property can
+                have multiple values
+            </li>
+            <li>Property and value for a selector are separated with a colon (:)</li>
+            <li>They are enclosed within curly brackets ({}) that is known as
+                declaration box</li>
+            <li> You can specify multiple property value pairs for a selector which are
+                separated by a semicolon (;)</li>
+        </ul>
+        <li> Types of Style Sheets
+        </li>
+        <ol>
+            <li>Internal Styles: It is placed inside
+
+                <head> section of a
+                    particular Web page source code.
+            </li>
+            <li>Inline Styles: It is placed directly inside an HTML element.
+                The following is the code:</li>
+            <li>External Style Sheet: External CSS is defined in a
+                separate file and is saved with .css extension. The following
+                is the code:</li>
+
+        </ol>
+
+        <li> Selectors
+        </li>
+        Selectors refer to the HTML elements with the styles that the user
+        can apply to them.
+        They are of five types:
+
+        <ul type="circle">
+            <li>Universal selector</li>
+            <li>ID selector</li>
+            <li>Class selector</li>
+            <li>Type selector</li>
+            <li>Combinator selector</li>
+
+        </ul>
+        <ol>
+            <li>Type Selector</li>
+            <ol type="circle">
+                <li>Specifies the element name along with the styles to be
+                    applied to that element</li>
+                <li> Styles are applied only once for an HTML element and are
+                    applied to all the occurrences of that elements.
+                    <pre>H1
+                    {
+                    font-family: ”arial”;
+                    }
+                    </pre>
+                </li>
+            </ol>
+            <li>ID Selector</li>
+            <ol type="circle">
+                <li> Applied styles to the content of all those elements</li>
+                <li> Represented by an (#) sign
+                    <pre>#E001
+                        {
+                        font-size: 25px;
+                        }
+                        </pre>
+                </li>
+            </ol>
+            <li>Class Selector</li>
+            <ol type="circle">
+                <li> Applies styles to the content of all those elements having the
+                    same class attribute</li>
+                <li> Represented by an (.) sign
+                    <pre>.planets
+                        {
+                        font-size: 25px;
+                        }pre>
+                </li>
+                  </ol>
+                  <li> Class Selector</li>
+                  <ol type="circle">
+            <li> Applies styles to the content of all those elements having the
+                same class attribute</li>
+                <li> Represented by an (.) sign
+                    <pre>.planets
+                        {
+                        font-size: 25px;
+                        }pre>
+                </li>
+            </li>Universal Selector</li>
+                  <ol type="circle">
+            <li> Can be applied to all elements in the document
+            </li>
+                <li> Represented by an (*) sign
+        
+                    <pre>*{
+                        font-family: Verdana;
+                        }
+                </li>
+                <li> Css Grouping Selector</li>
+          <p>grouping selector selects all the HTML elements with the same style
+            definitions. Look at the following CSS code (the h1, h2, and p elements have
+            the same style definitions):</p>
+              <pre>h1, h2, p {
+                text-align: center;
+                7
+                 color: red;
+                }
+                <li> Css Combibinator Selector</li>
+          <p>CSS combinators are explaining the relationship between two selectors. A
+            CSS selector can be a simple selector or a complex selector consisting of
+            more than one selector connected using combinators.
+            There are four types of combinators available in CSS which are discussed
+            below:</p>
+              
+            <ol type="circle">
+                <li> General Sibling selector (~)
+                    div ~ p {
+                    background-color: yellow;
+                    }
+                </li>
+                    <li> Adjacent Sibling selector (+)
+                        div + p {
+                        background-color: yellow;
+                        }
+                        
+                    </li>
+                    <li>Child selector (>)
+                        div > p {
+                         background-color: yellow;
+                        }
+                        </li>
+                        <li>Descendant selector (space)
+                            div p {
+                             background-color: yellow;
+                            }</li>
+                </ol>
+                
+        </ol>  
+            </ol>
+            
+        </ol>
+        
+          <li>CSS Comments</li>
+          <ol type="circle">
+            <li> Comments are used to explain the code, and may help when
+                you edit the source code at a later date.</li>
+                <li>Fluid Layouts: Use relative units like percentages instead of fixed units like pixels.</li>
+                <li>A CSS comment starts with /* and ends with */:</li>
+                  </ol>
+          
+               <h2>CSS Box Model</h2> 
+               <ol type="circle">
+               <li> Content: The actual content of the element (text, images, etc.).</li>
+                   <li>Padding: The space between the content and the border. It increases the element's size without affecting the distance between elements.</li>
+                   <li>Border: The border around the padding and content. It can have a width, style, and color.
+                </li>
+                <li>Margin: The space outside the border, creating space between elements.</li>
+                     </ol>
+                  
+            
+          
+        
+           <h2>Responsive Design</h2>
+           <ol type="circle">
+            <li>Media Queries: Allow you to apply different styles based on the device's screen size.</li>
+                <li>Viewport Meta Tag: Ensures the website scales properly on mobile devices.</li>
+                <li>A CSS comment starts with /* and ends with */:</li>
+                  </ol>
+         
+        
+            <h2>Advantage of CSS?</h2>
+            <ol>
+                    <li> CSS Animations
+                CSS allows you to create animations using the @keyframes rule and properties like animation-name, animation-duration, and animation-timing-function.
+                </li>
+            <li> CSS Transitions
+                Transitions allow you to change property values smoothly over a given duration.</li>
+            <li>CSS Variables
+                CSS variables (custom properties) allow you to store values that can be reused throughout a document.</li>
+            <li> CSS Preprocessors
+                CSS preprocessors like Sass, LESS, and Stylus add additional functionality to CSS, such as variables, nesting, and mixins, which make CSS more maintainable and scalable. </li>
+            </ol>
+            
+              <hr>
+              <h2>Conclusion</h2>
+              <p>CSS is a powerful tool that gives web designers and developers control over the presentation of their content. It separates content from design, allowing for flexibility and consistency across web pages. Mastery of CSS is essential for creating visually appealing and responsive websites that provide a good user experience across different devices and screen sizes. As web development evolves, CSS continues to grow with new features and capabilities that make designing complex, responsive layouts easier and more efficient.</p>
+        </ol>
+           
+           
+          
+                                            <!--Footer-->
+                   <div class="footer">
+        
+                    <div id="icons">
+                    <a href="https://www.facebook.com/"> <img class="social" src="./Image/FB.png"></a>
+                    <a href="https://www.instagram.com/"> <img class="social" src="./Image/insta.png"></a>
+                    <a href="https://in.linkedin.com/"> <img class="social" src="./Image/linkdin.png"></a>
+                    <a href="https://x.com/i/flow/login"> <img class="social" src="./Image/Twitter.png"></a>
+                    <a href="https://web.whatsapp.com/"> <img class="social" src="./Image/whatsapp.png"></a>
+        
+                         </div>
+                         <div class="footer-nav">
+                         <a href="./index.html">Home</a>
+                         <a href="./https://news.google.com/home?hl=en-IN&gl=IN&ceid=IN:en">News</a>
+                         <a href="./about.html">About Us</a>
+                         <a href="tel:91+9869007531">contact Us</a>
+                         <a href="https://www.develearn.in/contact">Our Team</a></div>
+                         <div class="footer-Copy">copyright @2024; designed by MANSI</div>
+                   </div>                   
+                       </div>
+</body>
+</html>
