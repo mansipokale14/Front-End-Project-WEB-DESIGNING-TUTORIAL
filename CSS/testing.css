@@ -1,0 +1,25 @@
+.header{
+    background-color: rgb(209, 58, 73);
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#img1{
+    height: 400px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+body{
+    background-color: rgb(235, 233, 229);
+}
+b{
+    font-size: 40px;
+}
+pre{
+    font-size: 15px;
+}

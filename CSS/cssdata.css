@@ -1,0 +1,63 @@
+.header{
+    background-color: rgb(64, 143, 177);
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 40px;
+}
+#img1{
+    height: 400px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+b{
+    font-size: 40px;
+    color: rgb(28, 31, 32);
+}
+body{
+    background-color: rgb(235, 233, 229);
+    background-size: cover;
+}
+h2{
+    color: rgb(28, 19, 129);
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+}
+pre{
+    font-size: 15px;
+}
+.footer {
+    background-color: #524e4e;
+    color: #fff;
+    text-align: center;
+    margin-left: 0px;
+    padding: 20px;
+    width: 100%;
+}
+.icons {
+    margin-bottom: 20px;
+}
+.social{
+    width: 40px;
+    height: 15px;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.footer-nav{
+    background-color: rgb(0, 0, 0);
+    color: rgb(16, 108, 108);
+    font-size: 14px;
+    text-align: center;
+}
+.footer-copy{
+    text-align: center;
+    background-color: black;
+}

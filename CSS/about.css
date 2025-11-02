@@ -1,0 +1,83 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.header{
+    background-color:  rgb(138, 31, 238); 
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: #fff;
+}
+.about-content {
+  flex: 1 1 400px;
+  padding: 20px;
+}
+.about-content h2 {
+  color: #007bff;
+}
+.about-image {
+  flex: 1 1 300px;
+  text-align: center;
+}
+.about-image img {
+  width: 80%;
+  max-width: 400px;
+}
+
+/* Mission Section */
+.mission {
+  text-align: center;
+  background-color: #e9ecef;
+  padding: 40px 20px;
+}
+.mission h2 {
+  color: #007bff;
+}
+
+.footer {
+    background-color: #524e4e;
+    color: #fff;
+    text-align: center;
+    margin-left: 0px;
+    padding: 20px;
+    width: 100%;
+}
+.icons {
+    margin-bottom: 20px;
+}
+.social{
+    width: 40px;
+    height: 15px;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.footer-nav{
+    background-color: rgb(0, 0, 0);
+    color: rgb(16, 108, 108);
+    font-size: 14px;
+    text-align: center;
+}
+.footer-copy{
+    text-align: center;
+    background-color: black;
+}
